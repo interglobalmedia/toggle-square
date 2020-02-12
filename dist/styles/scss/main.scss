@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #a96500;
+}
+
+.change-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.change-color {
+    background: red;
+}
+
+.btn-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-change,
+.btn-clear {
+    padding: 5px 10px;
+    width: 49%;
+}
